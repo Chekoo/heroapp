@@ -12,13 +12,11 @@ class Config: # 包含通用配置，子类分别定义专用的配置
     MAIL_SERVER = 'smtp.qq.com'  # 电子邮件服务器IP地址或主机名
     MAIL_PORT = 25 # 465
     MAIL_USE_TLS = True
-    # MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
-    # MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    MAIL_USERNAME = '316296241@qq.com'
-    MAIL_PASSWORD = 'gfjasxnmdmdnbijb'
+    MAIL_USERNAME = 'xxxxxxxxx@qq.com'
+    MAIL_PASSWORD = 'xxx' # 这里填写QQ的授权码
     FLASKY_MAIL_SUBJECT_PREFIX = '[Maple]'
-    FLASKY_MAIL_SENDER = 'Maple Admin <316296241@qq.com>'
-    FLASKY_ADMIN = 'ckenang@outlook.com' #('FLASKY_ADMIN')
+    FLASKY_MAIL_SENDER = 'Maple Admin <xxxxxxxxx@qq.com>'
+    FLASKY_ADMIN = 'xxx@xxx.com' #('FLASKY_ADMIN')
     FLASKY_POSTS_PER_PAGE = 20
     FLASKY_FOLLOWERS_PER_PAGE = 50
     FLASKY_COMMENTS_PER_PAGE = 30
